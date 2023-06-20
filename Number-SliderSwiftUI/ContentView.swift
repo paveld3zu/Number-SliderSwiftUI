@@ -26,7 +26,7 @@ struct ContentView: View {
             Button("Проверь меня!") {
                 showAlert = true
             }
-            .alert("Your Score", isPresented: $showAlert) {} message: {
+            .alert("Ваш счёт:", isPresented: $showAlert) {} message: {
                 Text("\(computeScore())")
             }
             
