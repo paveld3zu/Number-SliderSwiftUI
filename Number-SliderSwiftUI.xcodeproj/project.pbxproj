@@ -11,6 +11,7 @@
 		68AD64962A41D02B006E7571 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AD64952A41D02B006E7571 /* ContentView.swift */; };
 		68AD64982A41D02D006E7571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68AD64972A41D02D006E7571 /* Assets.xcassets */; };
 		68AD649B2A41D02D006E7571 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68AD649A2A41D02D006E7571 /* Preview Assets.xcassets */; };
+		68AD64A42A41D09D006E7571 /* SliderUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AD64A32A41D09D006E7571 /* SliderUIKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		68AD64952A41D02B006E7571 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68AD64972A41D02D006E7571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68AD649A2A41D02D006E7571 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68AD64A32A41D09D006E7571 /* SliderUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		68AD64922A41D02B006E7571 /* Number-SliderSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				68AD64A32A41D09D006E7571 /* SliderUIKit.swift */,
 				68AD64932A41D02B006E7571 /* Number_SliderSwiftUIApp.swift */,
 				68AD64952A41D02B006E7571 /* ContentView.swift */,
 				68AD64972A41D02D006E7571 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68AD64962A41D02B006E7571 /* ContentView.swift in Sources */,
+				68AD64A42A41D09D006E7571 /* SliderUIKit.swift in Sources */,
 				68AD64942A41D02B006E7571 /* Number_SliderSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
